@@ -16,7 +16,7 @@ Key Features
 
 Deployment Strategy
 
-The model is prepared for production by wrapping all preprocessing steps (encoding, feature engineering) and all four trained models (3 Classifiers, 1 Regressor) into a single Production Wrapper Class. This single object is saved using joblib for easy deployment and consistent predictions.
+The model is prepared for production by wrapping all preprocessing steps (encoding, feature engineering) and all four trained models (3 Classifiers, 1 Regressor) into a single Production Wrapper Class.
 
 Dependencies
 
